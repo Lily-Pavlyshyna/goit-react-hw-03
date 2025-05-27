@@ -1,8 +1,6 @@
 import css from "./ContactList.module.css";
 import Contact from "../Contact/Contact";
 export default function ContactList({ contact, onDelete }) {
-  console.log(contact.map((c) => c.id)); // ← перевір список ID
-
   return (
     <>
       {contact.length !== 0 ? (
